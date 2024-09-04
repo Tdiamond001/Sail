@@ -3,18 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div>
-        <h1>This is the Title</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima ipsam ipsa sint aliquam voluptas soluta quae omnis necessitatibus? Vitae corrupti corporis voluptatibus dicta ab harum nemo vel fuga suscipit temporibus?</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima ipsam ipsa sint aliquam voluptas soluta quae omnis necessitatibus? Vitae corrupti corporis voluptatibus dicta ab harum nemo vel fuga suscipit temporibus?</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima ipsam ipsa sint aliquam voluptas soluta quae omnis necessitatibus? Vitae corrupti corporis voluptatibus dicta ab harum nemo vel fuga suscipit temporibus?</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima ipsam ipsa sint aliquam voluptas soluta quae omnis necessitatibus? Vitae corrupti corporis voluptatibus dicta ab harum nemo vel fuga suscipit temporibus?</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima ipsam ipsa sint aliquam voluptas soluta quae omnis necessitatibus? Vitae corrupti corporis voluptatibus dicta ab harum nemo vel fuga suscipit temporibus?</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima ipsam ipsa sint aliquam voluptas soluta quae omnis necessitatibus? Vitae corrupti corporis voluptatibus dicta ab harum nemo vel fuga suscipit temporibus?</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima ipsam ipsa sint aliquam voluptas soluta quae omnis necessitatibus? Vitae corrupti corporis voluptatibus dicta ab harum nemo vel fuga suscipit temporibus?</p>
-    </div>
+    
+    <header class="header">
+            <a href="#" class="logo">Portfolio</a>
+            
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#service">Service</a>
+            <a href="#portfolio">Potfolio</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+
+    
+    </header>
+
+    <selection class="home" id="home">
+        <div class="home-content">
+
+            <h3>Hi,Myself</h3>
+            <h1>Taiwo Oyedemi</h1>
+            <h3>And I'm a <span>Software Developer</span></h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius exercitationem dicta enim eveniet quas magnam, beatae quasi consectetur doloribus dolor ea libero inventore, eligendi labore fuga sunt impedit, quibusdam totam!</p>
+                <div class="social-media">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-x"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            <a href="#" class="btn"> Download  CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="img/shortimage of me.jpg" alt="">
+        </div>
+
+    </selection>
+
+    <!-- ABOUT  ME  -->
+     <section class="about" id="about">
+        <div  class="about-img">
+            <img src="img/FB_IMG_1723525851864.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">ABOUT <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima animi blanditiis perspiciatis veniam odio placeat ullam quo pariatur id corrupti. Laudantium amet eius magni ea quia recusandae nisi officia sed.</p>
+        </div>
+     </section>
+
+     <!-- Service -->
+
+     <selection class="service" id="service">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="service-container">
+            <div class="service-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Developer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, qui dolores commodi adipisci id nostrum tempore ipsam consequuntur, repellat velit ea. Tempore harum molestias, tempora itaque quia accusantium similique architecto.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+
+            <div class="service-box">
+                <i class="fa-solid fa-palette"></i>
+                <h3>UI/UX Designer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, qui dolores commodi adipisci id nostrum tempore ipsam consequuntur, repellat velit ea. Tempore harum molestias, tempora itaque quia accusantium similique architecto.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+        </div>
+     </selection>
+     <selection class="portfolio" id="portfolio">
+
+        <h2 class="heading">Projects</h2>
+        
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/SYSTEMCODE.jpeg" alt="">
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/SYSTEMCODE.jpeg" alt="">
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/SYSTEMCODE.jpeg" alt="">
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/SYSTEMCODE.jpeg" alt="">
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/SYSTEMCODE.jpeg" alt="">
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/SYSTEMCODE.jpeg" alt="">
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                <i class="fa-solid fa-up-right-from-square"></i>
+            </div>
+        </div>
+
+
+        
+
+
+     </selection>
+    
+    <script src="portfolio.js"></script>
 </body>
-</html>
+</html> 
